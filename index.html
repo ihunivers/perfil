@@ -8,70 +8,130 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-yellow-500">
-    <header>
+<body class="max-w-xl mx-auto
+    border-black
+    min-h-dvh
+    bg-gradient-to-b from-black via-sky-950 to-yellow-500">
+    
+    <header class="text-white">
         <h1>Susana.links</h1>
         <p>Enlaces de perfil</p>
-    </header>
-    <main>
-        aqui va mi descripcion
+    
+    <!-- <main>
+        aqui va mi descripcion -->
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#html"></use>
-        </svg>
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#css"></use>
-        </svg> 
+        <section class="flex gap-2">
+            <a class="bg-gray-600 p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform" 
+                href="https://github.com/ihuniverse" target="_blank"
+                aria-label="Github" title="Ir a github de Ihunivers">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#github"></use>
+                </svg>
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#js"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform" 
+                aria-label="Gmail" title="susanadevprogr@gmail.com">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#gmail"></use>
+                </svg>
+            </a>
+
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform" 
+                href="https://www.linkedin.com/in/susanadevprogr/" target="_blank"
+                aria-label="linkedin" title="Ir a linkedin de Susana">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#linkedin"></use>
+                </svg>
+            </a>
         
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#python"></use>
-        </svg>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#php"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#html"></use>
+                </svg>
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#postgresql"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#css"></use>
+                </svg> 
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#tailwind"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#js"></use>
+                </svg>
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#bootstrap"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#python"></use>
+                </svg>
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#linuxMint"></use>
-        </svg>    
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#php"></use>
+                </svg>
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#git"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#postgresql"></use>
+                </svg>
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#github"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#tailwind"></use>
+                </svg>
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#gmail"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#bootstrap"></use>
+                </svg>
+            </a>
 
-        <svg width="28" height="28">
-            <use xlink:href="./assets/sprite3.svg#linkedin"></use>
-        </svg>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#linuxMint"></use>
+                </svg> 
+            </a>   
 
-    </main>
+            <a class="bg-white p-2 size-12 flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform">
+                <svg width="28" height="28">
+                    <use xlink:href="./assets/sprite3.svg#git"></use>
+                </svg>
+            </a>
+        </section>
+
+
+    </header>    
+
+        
+
+    <!-- </main>
     <footer>
         Desarrollado para practicar
-    </footer>
+    </footer> -->
 </body>
 
 
 </html>
+
+<!-- 1rem son 16px
+dvh: altura dinamica de viewport-->
