@@ -1,0 +1,13 @@
+{
+   //asocia todo .css a tailwind 
+    "files.associations": {
+        "*.css": "tailwindcss"
+    }
+
+
+}
+
+
+
+
+//a nivel de proyecto creas esta carpeta con este archivo

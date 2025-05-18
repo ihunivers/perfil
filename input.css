@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  /*Breakpoints*/
+  --breakpoint-micambio-xs: 350px;
+}
+
+/*no funciona .social-button y ya q no es recomendable asi queda*/
+/* .social-button {
+  @apply p-2 size-12  flex items-center justify-center
+            rounded-full hover:bg-indigo-950 hover:scale-110 transition-transform;
+} */
+
+/*
+@apply es una directiva de Tailwind CSS que permite aplicar clases de utilidad a un elemento CSS.
+@them es ahora css para customizar y personaliar el tema de tailwind
+@theme es una directiva de Tailwind CSS que permite personalizar el tema de Tailwind CSS.
+Se puede usar @apply pero el creador de tailwind no lo recomienda, lo mejor es crar un componente e react o astro...
+*/
