@@ -1,8 +1,18 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/InterTight-Italic-VariableFont_wght.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+}
 @theme {
   /*Breakpoints*/
   --breakpoint-micambio-xs: 350px;
+
+  /*fuente*/
+  --font-sans: "Inter", "system-ui", "sans-serif";
 }
 
 /*no funciona .social-button y ya q no es recomendable asi queda*/
